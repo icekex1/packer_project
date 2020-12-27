@@ -1,0 +1,16 @@
+﻿<Window x:Class="Packer.Message"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Packer"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="#1F2126"
+        Title="Message" Height="170" Width="200">
+    <StackPanel>
+        <TextBlock Name="Mes" Margin="10,10,10,58" TextAlignment="Center" FontSize="18" TextWrapping="Wrap" Foreground="#F8F6F4" Height="72"></TextBlock>
+        <Button Style="{StaticResource MyButtonStyle}" Margin="0, -55, 0, 0" Width="40" HorizontalAlignment="Center" Height="38" VerticalAlignment="Top" PreviewMouseLeftButtonDown="Button_MouseLeftButtonDown" Content="Ok"/>
+    </StackPanel>
+</Window>
